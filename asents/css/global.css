@@ -1,0 +1,48 @@
+:root{
+    --blue_color:#1090CB;
+    --black_color:#000000;
+    --white_color:#ffffff;
+}
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31PX 32PX 27PX 32PX;
+}
+
+h1{
+height: 44px;
+font-weight: 700;
+font-size: 29px;
+color: var(--blue_color);
+width: 121px;
+margin-left: 32px;
+margin-top: 31px;
+}
+
+.navbar_list{
+    display: flex;
+    align-items: center;
+}
+
+.navbar_list_item a{
+    height: 24px;
+    font-size: 16px;
+    margin-left: 73px;
+    font-weight: 400;
+    color: var(--black_color);
+}
+
+.navbar_list_item:nth-child(1) a{
+    color: var(--blue_color);
+}
+
+.navbar_list_item:nth-child(5) a{
+    padding:10px 27px ;
+    background-color: var(--blue_color);
+    border-radius: 6px;
+    color: var(--white_color);
+}
+
+
