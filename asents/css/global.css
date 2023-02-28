@@ -4,11 +4,16 @@
     --white_color:#ffffff;
     --dark_blue: #00329B;
     --soft_black: #686868;
+    --black2:#5C5C5C;
+    --black3:#252525;
     --grey:#D2D2D2;
+    --grey3:#f4f4f4;
+    --black4:#545454;
 
 
 
 }
+
 
 .header_container{
     display: flex;
@@ -25,6 +30,7 @@ color: var(--blue_color);
 width: 121px;
 margin-left: 32px;
 margin-top: 31px;
+
 }
 
 .navbar_list{
