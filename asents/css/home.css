@@ -1,0 +1,49 @@
+.st_div{
+    height: 743px;
+    display: flex;
+    background-image: url(../img/background1.svg);
+    justify-content: space-between;
+}
+
+.laptop_img{
+    margin: 0 153px 66px 25px;
+}
+
+.st_left>h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 128px 0 0 123px;
+    padding-bottom: 16px;
+}
+
+.st_left>p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 65px 123px;
+    color: var(--st_black);
+}
+
+.btn{
+    margin:0 0 0 123px;
+}
+
+.btn>button{
+    padding: 9px 52px;
+    cursor: pointer;
+}
+.btn>button:hover{
+    box-shadow: 0 0 4px var(--soft_black);
+}
+.btn>button:first-child{
+    background-color: var(--blue_color);
+    color: var(--white_color);
+    border-radius: 10px;
+    border: none;
+}
+
+.btn>button:last-child{
+    color: var(--blue_color);
+    background-color: var(--white_color);
+    border-radius: 10px;
+    border: none;
+}
