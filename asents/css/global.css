@@ -9,6 +9,8 @@
     --grey:#D2D2D2;
     --grey3:#f4f4f4;
     --black4:#545454;
+    --sky_blue:#E8F4FA;
+    --grey4:#969696;
 
 
 
@@ -50,7 +52,19 @@ margin-top: 31px;
     color: var(--blue_color);
 }
 
+.navbar_list_item:nth-child(4) a{
+    visibility: hidden;
+}
+
 .navbar_list_item:nth-child(5) a{
+    padding:10px 27px ;
+    background-color: var(--blue_color);
+    border-radius: 6px;
+    color: var(--white_color);
+    
+}
+
+.nav_button{
     padding:10px 27px ;
     background-color: var(--blue_color);
     border-radius: 6px;
@@ -130,7 +144,6 @@ footer{
     margin-left: 83px;
 
 }
-
 
 .copyright{
     margin: 29px
