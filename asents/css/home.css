@@ -86,9 +86,9 @@
     display: flex;
     justify-content: center;
 }
-/* .nav2>ul>li{
+.nav2>ul>li{
     margin:0 31px
-} */
+}
 
 .h3{
     font-weight: 600;

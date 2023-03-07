@@ -22,6 +22,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 31PX 32PX 27PX 32PX;
+    border-bottom: 1px solid var(--grey);
 }
 
 h1{

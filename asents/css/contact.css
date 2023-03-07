@@ -1,0 +1,41 @@
+.div_main_foot>p>span{
+    font-weight: 500;
+    font-size: 13px;
+    color: var(--black2);
+}
+
+.div_main_foot_text{
+    margin: auto;
+    padding-top:54px;
+}
+
+
+
+
+.subs{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    margin: auto;
+}
+
+.names{
+    display: flex;
+}
+
+input{
+    border: 0;
+    height: 56px;
+    border-radius: 9px;
+}
+
+.fname>input{
+    width: 322px;
+    margin-right: 27px;
+}
+
+.lname>input{
+    width: 322px;
+
+}
