@@ -70,5 +70,34 @@ h2{
     line-height: 72px;
     color: var(--blue_color);
     width: 807px;
-    margin: 123px;
+    margin-left: 123px;
+}
+
+.h2_text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: var(--soft_black);
+    margin-left: 123px;
+    margin-right: 303px;
+    margin-top: 48px;
+}
+
+.div_last>p{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
+    color: var(--soft_black);
+    margin-left: 123px;
+    width: 499px;
+    margin-top: 211px;
+}
+
+.div_last>p>span{
+    margin-top: 31px;
+    font-weight: 600;
+    line-height: 48px;
+    font-size: 30px;
+    color: var(--black_color);
+    width: 499px;
 }
